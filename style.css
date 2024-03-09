@@ -64,7 +64,7 @@ hr {
     border-top: solid 2px #444;
     border-top-color: rgba(0, 0, 0, 0.35);
     box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
-    margin: 2em 0;
+    margin: 1%;
 }
 
 #backToTop_Btn {
@@ -97,13 +97,6 @@ hr {
 }
 
 
-.div-flex {
-    display: flex;
-    margin: 20px;
-    background-color: aquamarine;
-    align-items: center;
-}
-
 
 .col {
     padding: 2%;
@@ -120,19 +113,12 @@ hr {
 .col1 {
     width: auto;
     background:  rgba(0, 0, 0, 0.937);
-    margin-bottom: 5%;
+    margin-top: -7%;
 }
 
 .col2 {
     width: auto;
-    background:  rgb(255, 1, 1);
-    height: auto;
-}
-
-.colImg {
-    width: 75%;
-    height: 75%;
-    clip-path: circle(48.9% at 50% 50%);
+    background:  rgba(0, 0, 0, 0.937);
 }
 
 .col3 {
@@ -140,12 +126,23 @@ hr {
     height: auto;
 }
 
+.colImg {
+    width: 50%;
+    height: 50%;
+    clip-path: circle(48.9% at 50% 50%);
+    position: relative;
+    z-index: -1;
+}
 
 /* Social */
 #copyright {
     list-style-type: none;
     font-size: 12px;
     margin-bottom: 20px;
+}
+
+.div-flex{
+    display: inline-flex;
 }
 
     .soc-links {
@@ -362,47 +359,11 @@ body{
         position: relative;
         display: block;
         width: 100%;
-        padding: 10%;
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-    }
-
-    .div-flex {
-        display: block;
-    }
-
-
-    .col {
-        padding: 2%;
-        text-align: justify;
-        background:  rgb(255, 204, 204);
-        box-shadow: 5px 5px 10px rgb(12, 12, 12);
-        border-style: solid;
-        border-width: 0.5px;
-        border-color: whitesmoke;
-    }
-
-    .col1 {
-        width:100%;
-        height: auto;
     }
 
     .col2 {
-        width: 100%;
-        height: auto;
-    }
-
-    .col3 {
-        width: 100%;
-        height: auto;
-    }
-
-    hr {
-        border: 0;
-        border-top: solid 2px #444;
-        border-top-color: rgba(0, 0, 0, 0.35);
-        box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
-        margin: 2.5%;
+        width: auto;
+        background:  rgba(0, 0, 0, 0.937);
     }
 
     #work{
