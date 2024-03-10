@@ -14,15 +14,29 @@ scroll-behavior: smooth;
 .container {
     position: relative;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: auto;
+    padding: 5%;
   }
+
+.container2 {
+    position: relative;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    padding: 5%;
+  }
+
+.container2 li{
+    margin: 4%;
+}
 
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
 #header{
     padding-top: 1.5%;
@@ -37,6 +51,34 @@ a {
     font-size: 26px;
     width: 48px;
 }
+
+.work .work-list {
+    padding-top: 12%;
+    margin-left: 0px; }
+.work .work-list li {
+    list-style: none;
+    font-size: 0.9375em;
+    color: #ffb0b0; }
+.work .work-list p {
+    list-style: none;
+    font-size: 1.5em;
+    color: #b3b3b3; }
+.work .work-list li a {
+    padding-bottom: 5px;
+    font-size: 1.1875em;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none; }
+
+.section.second {
+  margin-bottom: 90px; }
+.section .container {
+  position: relative; }
+  .section .container h1 {
+    text-transform: uppercase;
+    position: relative; }      
+    
+
 
 /* unvisited link */
 a:link {
@@ -143,6 +185,8 @@ hr {
 
 .div-flex{
     display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 }
 
     .soc-links {
