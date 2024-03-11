@@ -15,7 +15,7 @@ scroll-behavior: smooth;
     position: relative;
     text-align: center;
     color: rgb(255, 255, 255);
-    width: auto;
+    width: fit-content;
     padding: 5%;
   }
 
@@ -23,14 +23,18 @@ scroll-behavior: smooth;
     position: relative;
     text-align: left;
     color: rgb(255, 255, 255);
-    width: 500px;
-    padding: 5%;
+    max-width: fit-content ;
+    padding: 1%;
+    width: fit-content;
   }
 
 .container2 li{
     margin: 4%;
 }
-
+.container2 li a{
+    margin: 4%;
+    color: #ffb0b0;
+}
 .centered {
     position: absolute;
     top: 50%;
@@ -150,16 +154,17 @@ hr {
     border-color: whitesmoke;
     color: white;
     height: fit-content;
+    width: fit-content;
 }
 
 .col1 {
-    width: auto;
+    width: fit-content;
     background:  rgba(0, 0, 0, 0.937);
     margin-top: -7%;
 }
 
 .col2 {
-    width: auto;
+    width: fit-content;
     background:  rgba(0, 0, 0, 0.937);
 }
 
@@ -187,6 +192,7 @@ hr {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    width: auto;
 }
 
     .soc-links {
